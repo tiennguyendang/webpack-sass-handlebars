@@ -1,0 +1,7 @@
+{
+  "name": "webpack-sass-handlebars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tien Nguyen Dang <tien.nguyendang@outlook.com>",
+  "license": "MIT"
+}
