@@ -1,7 +1,23 @@
 {
-  "name": "webpack-sass-handlebars",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Tien Nguyen Dang <tien.nguyendang@outlook.com>",
-  "license": "MIT"
+	"name": "webpack-sass-handlebars",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Tien Nguyen Dang <tien.nguyendang@outlook.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/webpack": "^5.28.0",
+		"css-loader": "^6.7.1",
+		"handlebars": "^4.7.7",
+		"handlebars-loader": "^1.7.2",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "^2.6.0",
+		"sass": "^1.52.1",
+		"sass-loader": "^13.0.0",
+		"webpack": "^5.72.1",
+		"webpack-cli": "^4.9.2"
+	},
+	"scripts": {
+		"dev": "webpack --mode=development",
+		"build": "webpack --mode=production"
+	}
 }

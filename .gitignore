@@ -4,3 +4,5 @@
 *.sass.map
 *.scss.map
 node_modules
+build/
+dist/
