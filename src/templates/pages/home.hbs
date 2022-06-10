@@ -1,8 +1,9 @@
-<html lang="en">
-  {{> head title='Home Screen' }}
-  <body>
-    {{> header}}
-    <h1>This is screen screen</h1>
+{{!-- pages/home.hbs --}}
+
+{{#> layouts/base title="Home screen" }}
+
+  {{#*inline "main-block"}}
+    <h1>This is home screen</h1>
     <div class="container">
       <div class="row">
         <div class="col-sm">
@@ -16,6 +17,6 @@
         </div>
       </div>
     </div>
-    {{> footer}}
-  </body>
-</html>
+  {{/inline}}
+  
+{{/layouts/base}}
